@@ -5,7 +5,7 @@ defmodule CimgTest.MixProject do
     [
       app: :cimg_test,
       version: "0.1.0",
-      elixir: "~> 1.17.0",
+      elixir: "~> 1.17.1",
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
