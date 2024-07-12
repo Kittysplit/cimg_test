@@ -8,7 +8,7 @@ workflows:
 jobs:
   compile:
     docker:
-      - image: cimg/elixir:1.16.3-erlang-26.2.1
+      - image: cimg/elixir:1.17-erlang-26.2.1
     steps:
       - checkout
       - run:
